@@ -7,7 +7,7 @@
 //
 //  In order to build fully-functional OS X app (with simple UI)
 //  intended to construct output text file by input text file according to Facebook Hacker Cup contest requirements
-//  please download Xcode project at ***
+//  please download Xcode project at https://github.com/bis-surfer/FacebookHCupAssistant-.git
 //  and replace file of the same name ("FBHC2015_QualificationRound_Problem3Solver.m") with the present file.
 //  Also rewrite method +[Computer specificProblemSolverClass] to return [FBHC2015_QualificationRound_Problem3Solver class].
 //
