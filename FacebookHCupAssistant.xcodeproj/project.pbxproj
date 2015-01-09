@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E03DC71A5EEF5F007F5241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DC61A5EEF5F007F5241 /* AppDelegate.m */; };
+		09E03DC91A5EEF5F007F5241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DC81A5EEF5F007F5241 /* main.m */; };
+		09E03DCB1A5EEF5F007F5241 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E03DCA1A5EEF5F007F5241 /* Images.xcassets */; };
+		09E03DCE1A5EEF5F007F5241 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E03DCC1A5EEF5F007F5241 /* MainMenu.xib */; };
+		09E03DDA1A5EEF5F007F5241 /* FacebookHCupAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DD91A5EEF5F007F5241 /* FacebookHCupAssistantTests.m */; };
+		09E03DF11A5EF103007F5241 /* NSArray+Counting.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DEA1A5EF103007F5241 /* NSArray+Counting.m */; };
+		09E03DF21A5EF103007F5241 /* NSArray+Ordering.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DEC1A5EF103007F5241 /* NSArray+Ordering.m */; };
+		09E03DF31A5EF103007F5241 /* NSMutableArray+FlipSwitches.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DEE1A5EF103007F5241 /* NSMutableArray+FlipSwitches.m */; };
+		09E03DF41A5EF103007F5241 /* NSString+ArrayRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DF01A5EF103007F5241 /* NSString+ArrayRepresentation.m */; };
+		09E03DFE1A5EF116007F5241 /* ProgressRingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DF81A5EF116007F5241 /* ProgressRingStyle.m */; };
+		09E03DFF1A5EF116007F5241 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DFB1A5EF116007F5241 /* ArcView.m */; };
+		09E03E001A5EF116007F5241 /* ProgressRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DFD1A5EF116007F5241 /* ProgressRingView.m */; };
+		09E03E1F1A5EF12E007F5241 /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E021A5EF12E007F5241 /* Computer.m */; };
+		09E03E201A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E041A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m */; };
+		09E03E211A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E061A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m */; };
+		09E03E221A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E081A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m */; };
+		09E03E231A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E0A1A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m */; };
+		09E03E241A5EF12E007F5241 /* General.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E0C1A5EF12E007F5241 /* General.m */; };
+		09E03E251A5EF12E007F5241 /* ProgressMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E0E1A5EF12E007F5241 /* ProgressMeter.m */; };
+		09E03E2C1A5EF12E007F5241 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E1C1A5EF12E007F5241 /* Settings.m */; };
+		09E03E2D1A5EF12E007F5241 /* SpecificProblemSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E1E1A5EF12E007F5241 /* SpecificProblemSolver.m */; };
+		09E03E301A5EF16E007F5241 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E2F1A5EF16E007F5241 /* MasterViewController.m */; };
+		09E03E341A5EF272007F5241 /* MasterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E03E331A5EF272007F5241 /* MasterView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09E03DD41A5EEF5F007F5241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09E03DB81A5EEF5F007F5241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09E03DBF1A5EEF5F007F5241;
+			remoteInfo = FacebookHCupAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E03DC01A5EEF5F007F5241 /* FacebookHCupAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookHCupAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E03DC41A5EEF5F007F5241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E03DC51A5EEF5F007F5241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09E03DC61A5EEF5F007F5241 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09E03DC81A5EEF5F007F5241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09E03DCA1A5EEF5F007F5241 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		09E03DCD1A5EEF5F007F5241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		09E03DD31A5EEF5F007F5241 /* FacebookHCupAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookHCupAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E03DD81A5EEF5F007F5241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E03DD91A5EEF5F007F5241 /* FacebookHCupAssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookHCupAssistantTests.m; sourceTree = "<group>"; };
+		09E03DE91A5EF103007F5241 /* NSArray+Counting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Counting.h"; sourceTree = "<group>"; };
+		09E03DEA1A5EF103007F5241 /* NSArray+Counting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Counting.m"; sourceTree = "<group>"; };
+		09E03DEB1A5EF103007F5241 /* NSArray+Ordering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ordering.h"; sourceTree = "<group>"; };
+		09E03DEC1A5EF103007F5241 /* NSArray+Ordering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ordering.m"; sourceTree = "<group>"; };
+		09E03DED1A5EF103007F5241 /* NSMutableArray+FlipSwitches.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FlipSwitches.h"; sourceTree = "<group>"; };
+		09E03DEE1A5EF103007F5241 /* NSMutableArray+FlipSwitches.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FlipSwitches.m"; sourceTree = "<group>"; };
+		09E03DEF1A5EF103007F5241 /* NSString+ArrayRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ArrayRepresentation.h"; sourceTree = "<group>"; };
+		09E03DF01A5EF103007F5241 /* NSString+ArrayRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ArrayRepresentation.m"; sourceTree = "<group>"; };
+		09E03DF71A5EF116007F5241 /* ProgressRingStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressRingStyle.h; sourceTree = "<group>"; };
+		09E03DF81A5EF116007F5241 /* ProgressRingStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressRingStyle.m; sourceTree = "<group>"; };
+		09E03DFA1A5EF116007F5241 /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
+		09E03DFB1A5EF116007F5241 /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		09E03DFC1A5EF116007F5241 /* ProgressRingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressRingView.h; sourceTree = "<group>"; };
+		09E03DFD1A5EF116007F5241 /* ProgressRingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressRingView.m; sourceTree = "<group>"; };
+		09E03E011A5EF12E007F5241 /* Computer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		09E03E021A5EF12E007F5241 /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
+		09E03E031A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHC2014_QualificationRound_Problem1Solver.h; sourceTree = "<group>"; };
+		09E03E041A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2014_QualificationRound_Problem1Solver.m; sourceTree = "<group>"; };
+		09E03E051A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHC2015_QualificationRound_Problem1Solver.h; sourceTree = "<group>"; };
+		09E03E061A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2015_QualificationRound_Problem1Solver.m; sourceTree = "<group>"; };
+		09E03E071A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHC2015_QualificationRound_Problem2Solver.h; sourceTree = "<group>"; };
+		09E03E081A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2015_QualificationRound_Problem2Solver.m; sourceTree = "<group>"; };
+		09E03E091A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHC2015_QualificationRound_Problem3Solver.h; sourceTree = "<group>"; };
+		09E03E0A1A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2015_QualificationRound_Problem3Solver.m; sourceTree = "<group>"; };
+		09E03E0B1A5EF12E007F5241 /* General.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = General.h; sourceTree = "<group>"; };
+		09E03E0C1A5EF12E007F5241 /* General.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = General.m; sourceTree = "<group>"; };
+		09E03E0D1A5EF12E007F5241 /* ProgressMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressMeter.h; sourceTree = "<group>"; };
+		09E03E0E1A5EF12E007F5241 /* ProgressMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressMeter.m; sourceTree = "<group>"; };
+		09E03E1B1A5EF12E007F5241 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		09E03E1C1A5EF12E007F5241 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		09E03E1D1A5EF12E007F5241 /* SpecificProblemSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecificProblemSolver.h; sourceTree = "<group>"; };
+		09E03E1E1A5EF12E007F5241 /* SpecificProblemSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecificProblemSolver.m; sourceTree = "<group>"; };
+		09E03E2E1A5EF16E007F5241 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		09E03E2F1A5EF16E007F5241 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		09E03E331A5EF272007F5241 /* MasterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09E03DBD1A5EEF5F007F5241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E03DD01A5EEF5F007F5241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09E03DB71A5EEF5F007F5241 = {
+			isa = PBXGroup;
+			children = (
+				09E03DC21A5EEF5F007F5241 /* FacebookHCupAssistant */,
+				09E03DD61A5EEF5F007F5241 /* FacebookHCupAssistantTests */,
+				09E03DC11A5EEF5F007F5241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09E03DC11A5EEF5F007F5241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DC01A5EEF5F007F5241 /* FacebookHCupAssistant.app */,
+				09E03DD31A5EEF5F007F5241 /* FacebookHCupAssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09E03DC21A5EEF5F007F5241 /* FacebookHCupAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DE31A5EEFFD007F5241 /* Classes */,
+				09E03E311A5EF191007F5241 /* Resources */,
+				09E03DCA1A5EEF5F007F5241 /* Images.xcassets */,
+				09E03DCC1A5EEF5F007F5241 /* MainMenu.xib */,
+				09E03DC31A5EEF5F007F5241 /* Supporting Files */,
+			);
+			path = FacebookHCupAssistant;
+			sourceTree = "<group>";
+		};
+		09E03DC31A5EEF5F007F5241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DC41A5EEF5F007F5241 /* Info.plist */,
+				09E03DC81A5EEF5F007F5241 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09E03DD61A5EEF5F007F5241 /* FacebookHCupAssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DD91A5EEF5F007F5241 /* FacebookHCupAssistantTests.m */,
+				09E03DD71A5EEF5F007F5241 /* Supporting Files */,
+			);
+			path = FacebookHCupAssistantTests;
+			sourceTree = "<group>";
+		};
+		09E03DD71A5EEF5F007F5241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DD81A5EEF5F007F5241 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09E03DE31A5EEFFD007F5241 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DE81A5EF048007F5241 /* Extensions */,
+				09E03DE71A5EF03E007F5241 /* Components */,
+				09E03DE61A5EF02F007F5241 /* Model */,
+				09E03DE51A5EF028007F5241 /* Views */,
+				09E03DE41A5EF00F007F5241 /* Controllers */,
+				09E03DC51A5EEF5F007F5241 /* AppDelegate.h */,
+				09E03DC61A5EEF5F007F5241 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		09E03DE41A5EF00F007F5241 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09E03E2E1A5EF16E007F5241 /* MasterViewController.h */,
+				09E03E2F1A5EF16E007F5241 /* MasterViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		09E03DE51A5EF028007F5241 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09E03DE61A5EF02F007F5241 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09E03E0B1A5EF12E007F5241 /* General.h */,
+				09E03E0C1A5EF12E007F5241 /* General.m */,
+				09E03E1B1A5EF12E007F5241 /* Settings.h */,
+				09E03E1C1A5EF12E007F5241 /* Settings.m */,
+				09E03E0D1A5EF12E007F5241 /* ProgressMeter.h */,
+				09E03E0E1A5EF12E007F5241 /* ProgressMeter.m */,
+				09E03E011A5EF12E007F5241 /* Computer.h */,
+				09E03E021A5EF12E007F5241 /* Computer.m */,
+				09E03E1D1A5EF12E007F5241 /* SpecificProblemSolver.h */,
+				09E03E1E1A5EF12E007F5241 /* SpecificProblemSolver.m */,
+				09E03E031A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.h */,
+				09E03E041A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m */,
+				09E03E051A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.h */,
+				09E03E061A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m */,
+				09E03E071A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.h */,
+				09E03E081A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m */,
+				09E03E091A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.h */,
+				09E03E0A1A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09E03DE71A5EF03E007F5241 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DF51A5EF116007F5241 /* ProgressRing */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		09E03DE81A5EF048007F5241 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DE91A5EF103007F5241 /* NSArray+Counting.h */,
+				09E03DEA1A5EF103007F5241 /* NSArray+Counting.m */,
+				09E03DEB1A5EF103007F5241 /* NSArray+Ordering.h */,
+				09E03DEC1A5EF103007F5241 /* NSArray+Ordering.m */,
+				09E03DED1A5EF103007F5241 /* NSMutableArray+FlipSwitches.h */,
+				09E03DEE1A5EF103007F5241 /* NSMutableArray+FlipSwitches.m */,
+				09E03DEF1A5EF103007F5241 /* NSString+ArrayRepresentation.h */,
+				09E03DF01A5EF103007F5241 /* NSString+ArrayRepresentation.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		09E03DF51A5EF116007F5241 /* ProgressRing */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DF61A5EF116007F5241 /* Model */,
+				09E03DF91A5EF116007F5241 /* Views */,
+			);
+			path = ProgressRing;
+			sourceTree = "<group>";
+		};
+		09E03DF61A5EF116007F5241 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DF71A5EF116007F5241 /* ProgressRingStyle.h */,
+				09E03DF81A5EF116007F5241 /* ProgressRingStyle.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09E03DF91A5EF116007F5241 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09E03DFA1A5EF116007F5241 /* ArcView.h */,
+				09E03DFB1A5EF116007F5241 /* ArcView.m */,
+				09E03DFC1A5EF116007F5241 /* ProgressRingView.h */,
+				09E03DFD1A5EF116007F5241 /* ProgressRingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09E03E311A5EF191007F5241 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09E03E321A5EF19D007F5241 /* Nibs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		09E03E321A5EF19D007F5241 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				09E03E331A5EF272007F5241 /* MasterView.xib */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09E03DBF1A5EEF5F007F5241 /* FacebookHCupAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E03DDD1A5EEF5F007F5241 /* Build configuration list for PBXNativeTarget "FacebookHCupAssistant" */;
+			buildPhases = (
+				09E03DBC1A5EEF5F007F5241 /* Sources */,
+				09E03DBD1A5EEF5F007F5241 /* Frameworks */,
+				09E03DBE1A5EEF5F007F5241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookHCupAssistant;
+			productName = FacebookHCupAssistant;
+			productReference = 09E03DC01A5EEF5F007F5241 /* FacebookHCupAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09E03DD21A5EEF5F007F5241 /* FacebookHCupAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E03DE01A5EEF5F007F5241 /* Build configuration list for PBXNativeTarget "FacebookHCupAssistantTests" */;
+			buildPhases = (
+				09E03DCF1A5EEF5F007F5241 /* Sources */,
+				09E03DD01A5EEF5F007F5241 /* Frameworks */,
+				09E03DD11A5EEF5F007F5241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09E03DD51A5EEF5F007F5241 /* PBXTargetDependency */,
+			);
+			name = FacebookHCupAssistantTests;
+			productName = FacebookHCupAssistantTests;
+			productReference = 09E03DD31A5EEF5F007F5241 /* FacebookHCupAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09E03DB81A5EEF5F007F5241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "The Lost World";
+				TargetAttributes = {
+					09E03DBF1A5EEF5F007F5241 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					09E03DD21A5EEF5F007F5241 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 09E03DBF1A5EEF5F007F5241;
+					};
+				};
+			};
+			buildConfigurationList = 09E03DBB1A5EEF5F007F5241 /* Build configuration list for PBXProject "FacebookHCupAssistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09E03DB71A5EEF5F007F5241;
+			productRefGroup = 09E03DC11A5EEF5F007F5241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09E03DBF1A5EEF5F007F5241 /* FacebookHCupAssistant */,
+				09E03DD21A5EEF5F007F5241 /* FacebookHCupAssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09E03DBE1A5EEF5F007F5241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E03DCB1A5EEF5F007F5241 /* Images.xcassets in Resources */,
+				09E03DCE1A5EEF5F007F5241 /* MainMenu.xib in Resources */,
+				09E03E341A5EF272007F5241 /* MasterView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E03DD11A5EEF5F007F5241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09E03DBC1A5EEF5F007F5241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E03E201A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m in Sources */,
+				09E03DC91A5EEF5F007F5241 /* main.m in Sources */,
+				09E03E301A5EF16E007F5241 /* MasterViewController.m in Sources */,
+				09E03E241A5EF12E007F5241 /* General.m in Sources */,
+				09E03DFE1A5EF116007F5241 /* ProgressRingStyle.m in Sources */,
+				09E03DC71A5EEF5F007F5241 /* AppDelegate.m in Sources */,
+				09E03E221A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m in Sources */,
+				09E03DF21A5EF103007F5241 /* NSArray+Ordering.m in Sources */,
+				09E03E231A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m in Sources */,
+				09E03E001A5EF116007F5241 /* ProgressRingView.m in Sources */,
+				09E03E211A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m in Sources */,
+				09E03DF11A5EF103007F5241 /* NSArray+Counting.m in Sources */,
+				09E03DFF1A5EF116007F5241 /* ArcView.m in Sources */,
+				09E03E251A5EF12E007F5241 /* ProgressMeter.m in Sources */,
+				09E03DF41A5EF103007F5241 /* NSString+ArrayRepresentation.m in Sources */,
+				09E03E2D1A5EF12E007F5241 /* SpecificProblemSolver.m in Sources */,
+				09E03E2C1A5EF12E007F5241 /* Settings.m in Sources */,
+				09E03E1F1A5EF12E007F5241 /* Computer.m in Sources */,
+				09E03DF31A5EF103007F5241 /* NSMutableArray+FlipSwitches.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09E03DCF1A5EEF5F007F5241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E03DDA1A5EEF5F007F5241 /* FacebookHCupAssistantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09E03DD51A5EEF5F007F5241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09E03DBF1A5EEF5F007F5241 /* FacebookHCupAssistant */;
+			targetProxy = 09E03DD41A5EEF5F007F5241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09E03DCC1A5EEF5F007F5241 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09E03DCD1A5EEF5F007F5241 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09E03DDB1A5EEF5F007F5241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09E03DDC1A5EEF5F007F5241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09E03DDE1A5EEF5F007F5241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FacebookHCupAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09E03DDF1A5EEF5F007F5241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FacebookHCupAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		09E03DE11A5EEF5F007F5241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FacebookHCupAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookHCupAssistant.app/Contents/MacOS/FacebookHCupAssistant";
+			};
+			name = Debug;
+		};
+		09E03DE21A5EEF5F007F5241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FacebookHCupAssistantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookHCupAssistant.app/Contents/MacOS/FacebookHCupAssistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E03DBB1A5EEF5F007F5241 /* Build configuration list for PBXProject "FacebookHCupAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E03DDB1A5EEF5F007F5241 /* Debug */,
+				09E03DDC1A5EEF5F007F5241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E03DDD1A5EEF5F007F5241 /* Build configuration list for PBXNativeTarget "FacebookHCupAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E03DDE1A5EEF5F007F5241 /* Debug */,
+				09E03DDF1A5EEF5F007F5241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09E03DE01A5EEF5F007F5241 /* Build configuration list for PBXNativeTarget "FacebookHCupAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09E03DE11A5EEF5F007F5241 /* Debug */,
+				09E03DE21A5EEF5F007F5241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09E03DB81A5EEF5F007F5241 /* Project object */;
+}
