@@ -70,7 +70,7 @@
 - (void)updateOutputFilePath {
     
     NSString *inputFileExtension = [[self.inputFilePath componentsSeparatedByString:@"_"] lastObject];
-    if (![inputFileExtension containsString:@"input"]) {
+    if ([inputFileExtension rangeOfString:@"input"].length == 0) {
         
         inputFileExtension = [[inputFileExtension componentsSeparatedByString:@"."] lastObject];
     }
