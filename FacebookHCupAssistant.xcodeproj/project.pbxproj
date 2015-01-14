@@ -20,16 +20,19 @@
 		09E03DFF1A5EF116007F5241 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DFB1A5EF116007F5241 /* ArcView.m */; };
 		09E03E001A5EF116007F5241 /* ProgressRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03DFD1A5EF116007F5241 /* ProgressRingView.m */; };
 		09E03E1F1A5EF12E007F5241 /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E021A5EF12E007F5241 /* Computer.m */; };
-		09E03E201A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E041A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m */; };
-		09E03E211A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E061A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m */; };
-		09E03E221A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E081A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m */; };
-		09E03E231A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E0A1A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m */; };
 		09E03E241A5EF12E007F5241 /* General.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E0C1A5EF12E007F5241 /* General.m */; };
 		09E03E251A5EF12E007F5241 /* ProgressMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E0E1A5EF12E007F5241 /* ProgressMeter.m */; };
 		09E03E2C1A5EF12E007F5241 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E1C1A5EF12E007F5241 /* Settings.m */; };
 		09E03E2D1A5EF12E007F5241 /* SpecificProblemSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E1E1A5EF12E007F5241 /* SpecificProblemSolver.m */; };
 		09E03E301A5EF16E007F5241 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E2F1A5EF16E007F5241 /* MasterViewController.m */; };
 		09E03E341A5EF272007F5241 /* MasterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09E03E331A5EF272007F5241 /* MasterView.xib */; };
+		09EEB1A81A657A0700ED73C4 /* FBHC2015_Round1_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEB1A71A657A0700ED73C4 /* FBHC2015_Round1_Problem1Solver.m */; };
+		09EEB1AB1A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEB1AA1A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.m */; };
+		09EEB1AE1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEB1AD1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m */; };
+		485B36871A60AC9300541C25 /* FBHC2014_QualificationRound_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E041A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m */; };
+		485B36881A60AC9300541C25 /* FBHC2015_QualificationRound_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E061A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m */; };
+		485B36891A60AC9300541C25 /* FBHC2015_QualificationRound_Problem2Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E081A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m */; };
+		485B368A1A60AC9300541C25 /* FBHC2015_QualificationRound_Problem3Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E0A1A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +91,12 @@
 		09E03E2E1A5EF16E007F5241 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		09E03E2F1A5EF16E007F5241 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		09E03E331A5EF272007F5241 /* MasterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterView.xib; sourceTree = "<group>"; };
+		09EEB1A61A657A0700ED73C4 /* FBHC2015_Round1_Problem1Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHC2015_Round1_Problem1Solver.h; sourceTree = "<group>"; };
+		09EEB1A71A657A0700ED73C4 /* FBHC2015_Round1_Problem1Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2015_Round1_Problem1Solver.m; sourceTree = "<group>"; };
+		09EEB1A91A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHC2015_Round1_Problem2Solver.h; sourceTree = "<group>"; };
+		09EEB1AA1A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2015_Round1_Problem2Solver.m; sourceTree = "<group>"; };
+		09EEB1AC1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHC2015_Round1_Problem3Solver.h; sourceTree = "<group>"; };
+		09EEB1AD1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2015_Round1_Problem3Solver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +224,12 @@
 				09E03E081A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m */,
 				09E03E091A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.h */,
 				09E03E0A1A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m */,
+				09EEB1A61A657A0700ED73C4 /* FBHC2015_Round1_Problem1Solver.h */,
+				09EEB1A71A657A0700ED73C4 /* FBHC2015_Round1_Problem1Solver.m */,
+				09EEB1A91A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.h */,
+				09EEB1AA1A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.m */,
+				09EEB1AC1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.h */,
+				09EEB1AD1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -387,22 +402,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09E03E201A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m in Sources */,
+				485B36871A60AC9300541C25 /* FBHC2014_QualificationRound_Problem1Solver.m in Sources */,
+				485B36881A60AC9300541C25 /* FBHC2015_QualificationRound_Problem1Solver.m in Sources */,
+				485B36891A60AC9300541C25 /* FBHC2015_QualificationRound_Problem2Solver.m in Sources */,
+				485B368A1A60AC9300541C25 /* FBHC2015_QualificationRound_Problem3Solver.m in Sources */,
+				09EEB1AB1A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.m in Sources */,
 				09E03DC91A5EEF5F007F5241 /* main.m in Sources */,
 				09E03E301A5EF16E007F5241 /* MasterViewController.m in Sources */,
 				09E03E241A5EF12E007F5241 /* General.m in Sources */,
 				09E03DFE1A5EF116007F5241 /* ProgressRingStyle.m in Sources */,
 				09E03DC71A5EEF5F007F5241 /* AppDelegate.m in Sources */,
-				09E03E221A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m in Sources */,
 				09E03DF21A5EF103007F5241 /* NSArray+Ordering.m in Sources */,
-				09E03E231A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem3Solver.m in Sources */,
 				09E03E001A5EF116007F5241 /* ProgressRingView.m in Sources */,
-				09E03E211A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m in Sources */,
 				09E03DF11A5EF103007F5241 /* NSArray+Counting.m in Sources */,
 				09E03DFF1A5EF116007F5241 /* ArcView.m in Sources */,
 				09E03E251A5EF12E007F5241 /* ProgressMeter.m in Sources */,
 				09E03DF41A5EF103007F5241 /* NSString+ArrayRepresentation.m in Sources */,
+				09EEB1AE1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m in Sources */,
 				09E03E2D1A5EF12E007F5241 /* SpecificProblemSolver.m in Sources */,
+				09EEB1A81A657A0700ED73C4 /* FBHC2015_Round1_Problem1Solver.m in Sources */,
 				09E03E2C1A5EF12E007F5241 /* Settings.m in Sources */,
 				09E03E1F1A5EF12E007F5241 /* Computer.m in Sources */,
 				09E03DF31A5EF103007F5241 /* NSMutableArray+FlipSwitches.m in Sources */,
@@ -473,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -509,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -522,6 +540,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = FacebookHCupAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -533,6 +552,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = FacebookHCupAssistant/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -552,6 +572,7 @@
 				);
 				INFOPLIST_FILE = FacebookHCupAssistantTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookHCupAssistant.app/Contents/MacOS/FacebookHCupAssistant";
 			};
@@ -568,6 +589,7 @@
 				);
 				INFOPLIST_FILE = FacebookHCupAssistantTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookHCupAssistant.app/Contents/MacOS/FacebookHCupAssistant";
 			};

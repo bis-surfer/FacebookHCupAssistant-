@@ -18,6 +18,10 @@
 #import "FBHC2015_QualificationRound_Problem2Solver.h"
 #import "FBHC2015_QualificationRound_Problem3Solver.h"
 
+#import "FBHC2015_Round1_Problem1Solver.h"
+#import "FBHC2015_Round1_Problem2Solver.h"
+#import "FBHC2015_Round1_Problem3Solver.h"
+
 
 @interface Computer ()
 
@@ -28,7 +32,7 @@
 
 + (Class)specificProblemSolverClass {
     
-    return [FBHC2015_QualificationRound_Problem1Solver class];
+    return [FBHC2015_QualificationRound_Problem3Solver class];
 }
 
 + (NSString *)inputString {
