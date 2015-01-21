@@ -21,6 +21,7 @@
 #import "FBHC2015_Round1_Problem1Solver.h"
 #import "FBHC2015_Round1_Problem2Solver.h"
 #import "FBHC2015_Round1_Problem3Solver.h"
+#import "FBHC2015_Round1_Problem4Solver.h"
 
 
 @interface Computer ()
@@ -32,7 +33,7 @@
 
 + (Class)specificProblemSolverClass {
     
-    return [FBHC2015_QualificationRound_Problem3Solver class];
+    return [FBHC2015_Round1_Problem4Solver class];
 }
 
 + (NSString *)inputString {
@@ -48,7 +49,7 @@
         return nil;
     }
     
-    NSLog(@"inputString: \n%@", inputString);
+    // NSLog(@"inputString: \n%@", inputString);
     
     return inputString;
 }
@@ -86,7 +87,12 @@
     NSUInteger testCasesCount = (NSUInteger)[[inputLines objectAtIndex:0] integerValue];
     [Settings sharedInstance].testCasesCount = testCasesCount;
     
-    SpecificProblemSolver *specificProblemSolver = [[[Computer specificProblemSolverClass] alloc] init];
+    static SpecificProblemSolver *specificProblemSolver = nil;
+    
+    if (!specificProblemSolver) {
+        
+        specificProblemSolver = [[[Computer specificProblemSolverClass] alloc] init];
+    }
     
     if (inputLines.count - 1 < specificProblemSolver.linesPerCaseCount*testCasesCount) {
         

@@ -29,6 +29,7 @@
 		09EEB1A81A657A0700ED73C4 /* FBHC2015_Round1_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEB1A71A657A0700ED73C4 /* FBHC2015_Round1_Problem1Solver.m */; };
 		09EEB1AB1A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEB1AA1A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.m */; };
 		09EEB1AE1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EEB1AD1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m */; };
+		4856020C1A6B8A4700BE1F8D /* FBHC2015_Round1_Problem4Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 4856020B1A6B8A4700BE1F8D /* FBHC2015_Round1_Problem4Solver.m */; };
 		485B36871A60AC9300541C25 /* FBHC2014_QualificationRound_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E041A5EF12E007F5241 /* FBHC2014_QualificationRound_Problem1Solver.m */; };
 		485B36881A60AC9300541C25 /* FBHC2015_QualificationRound_Problem1Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E061A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem1Solver.m */; };
 		485B36891A60AC9300541C25 /* FBHC2015_QualificationRound_Problem2Solver.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E03E081A5EF12E007F5241 /* FBHC2015_QualificationRound_Problem2Solver.m */; };
@@ -97,6 +98,8 @@
 		09EEB1AA1A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2015_Round1_Problem2Solver.m; sourceTree = "<group>"; };
 		09EEB1AC1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHC2015_Round1_Problem3Solver.h; sourceTree = "<group>"; };
 		09EEB1AD1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2015_Round1_Problem3Solver.m; sourceTree = "<group>"; };
+		4856020A1A6B8A4700BE1F8D /* FBHC2015_Round1_Problem4Solver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBHC2015_Round1_Problem4Solver.h; sourceTree = "<group>"; };
+		4856020B1A6B8A4700BE1F8D /* FBHC2015_Round1_Problem4Solver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBHC2015_Round1_Problem4Solver.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +233,8 @@
 				09EEB1AA1A657A6100ED73C4 /* FBHC2015_Round1_Problem2Solver.m */,
 				09EEB1AC1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.h */,
 				09EEB1AD1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m */,
+				4856020A1A6B8A4700BE1F8D /* FBHC2015_Round1_Problem4Solver.h */,
+				4856020B1A6B8A4700BE1F8D /* FBHC2015_Round1_Problem4Solver.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -417,6 +422,7 @@
 				09E03DF11A5EF103007F5241 /* NSArray+Counting.m in Sources */,
 				09E03DFF1A5EF116007F5241 /* ArcView.m in Sources */,
 				09E03E251A5EF12E007F5241 /* ProgressMeter.m in Sources */,
+				4856020C1A6B8A4700BE1F8D /* FBHC2015_Round1_Problem4Solver.m in Sources */,
 				09E03DF41A5EF103007F5241 /* NSString+ArrayRepresentation.m in Sources */,
 				09EEB1AE1A657A9400ED73C4 /* FBHC2015_Round1_Problem3Solver.m in Sources */,
 				09E03E2D1A5EF12E007F5241 /* SpecificProblemSolver.m in Sources */,
